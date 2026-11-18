@@ -1,0 +1,33 @@
+/* WSE - World Simulation Engine settings panel */
+
+.wse-settings .wse-section-title {
+    margin: 0.5em 0 0.25em;
+}
+
+.wse-settings .wse-status-grid {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 2px 12px;
+    margin: 0.25em 0 0.6em;
+}
+
+.wse-settings .wse-status-grid .wse-label {
+    opacity: 0.75;
+}
+
+.wse-settings .wse-status-grid span {
+    overflow-wrap: anywhere;
+}
+
+.wse-settings .wse-actions {
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 0.25em;
+}
+
+.wse-settings .wse-feedback {
+    display: block;
+    min-height: 1.2em;
+    margin-top: 0.5em;
+    opacity: 0.8;
+}
