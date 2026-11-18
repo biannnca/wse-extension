@@ -1,0 +1,10 @@
+{
+    "name": "wse-extension",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "description": "Tooling marker only: lets Node treat index.js / status-manager.js as ES modules for selftest.mjs. SillyTavern ignores this file — it only reads manifest.json.",
+    "scripts": {
+        "selftest": "node selftest.mjs"
+    }
+}
